@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Even Listing</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/all.min.css">
+    <link rel="stylesheet" href="./bootstrap-icons/bootstrap-icons.min.css">
+</head>
+<body>
+    <!-- Start header "> -->
+    <nav class="navbar navbar-expand-lg pt-2 position-fixed">
+        <div class="container container-fluid ">
+          <a class="navbar-brand text-light fs-3 w-25" href="#">
+            <div class="d-flex align-items-center ">
+              <img src="./images/logo.png" alt="">
+              <div class=" ms-0 ms-md-2 pt-2  logo-info">
+                <p class="fw-bold fs-4">Tiya</p>
+                <p class="fw-bold ">GOLF CLUB</p>
+              </div>
+            </div>
+          </a>
+          <button class="navbar-toggler ms-auto " type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="fas fa-bars text-light fs-6"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active text-light pe-4" aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-light pe-4" href="#about">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-light pe-4" href="#member">Membership</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-light pe-4" href="#events">Events</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-light pe-4" href="#contact">Contact Us</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle text-light pe-4" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Pages
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="event-listing.html">Event Listing</a></li>
+                  <li><a class="dropdown-item" href="event-details.html">Event Details</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+          <!-- Canvas button -->
+          <button class="btn btn-outline-warning rounded-pill log" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">Member Login</button>
+        </div>
+      </nav>
+
+  
+      <!-- Start offcanvas -->
+      <div class="offcanvas offcanvas-end d-flex align-items-center" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+          <div class="offcanvas-body  py-5 px-5 w-100">
+            <div class="d-flex mb-4">
+              <h5>Member Login</h5>
+              <button type="button text-secondary" class="btn-close ms-auto " data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <form action="">
+              <label class="mb-2 fs-6" for="">Membership No.</label>
+              <input type="text" class="d-block rounded-pill w-100 py-2 px-3 mb-4" placeholder="11002560">
+              <label class="mb-2 fs-6" for="">Password</label>
+              <input type="password" class="d-block rounded-pill w-100 py-2 px-3 mb-4" placeholder="password">
+              <input type="checkbox" class="d-inline-block">
+              <label class="fs-6" for="">Remember me</label>
+              <div class="d-flex justify-content-center">
+                <input type="submit" class="d-block  rounded-pill fs-5 py-2 px-4 text-light my-3" value="Login" >
+              </div>
+              <p class="text-center mt-2"><a class="" href="">Forgotten password?</a></p>
+              <p>
+                <span class="h5 text-light me-2">Any Question?</span>
+                <a href="">010-020-0340</a>
+              </p>
+            </form>
+          </div>
+      </div>  
+      <!-- End offcanvas -->
+      <!-- End header  -->
+  
+  
+  
+      <!-- Start home  -->
+      <div class="home ">    
+        <img class=" wave1" src="./images/svg/wave (8).svg" alt="">
+          <div class="container d-flex align-items-center h-100">
+            <div class="home-content my-5 ">
+              <h1 class="text-light mt-5 py-5 ">Event Listing</h1>
+              <div>
+                <button class="btn btn-warning rounded-pill text-light fs-5 px-4">Explore Events</button>
+              </div>
+            </div>
+          </div>
+        <img class="wave2" src="./images/svg/wave (9).svg" alt="">
+      </div>
+      <!-- End home  -->
+  
+
+
+      <!-- Start latest events  -->
+      <div class="latest container mb-5">
+        <h1>Latest events</h1>
+        <div class="row mx-0 py-5">
+            <div class="col-md-6">
+                <div class="event text-light">
+                    <img class="w-100 d-block" src="./images/anna-rosar-ew-olGvgCCs-unsplash.jpg" alt="">
+                    <div class="d-flex">
+                        <div class="date text-center w-50 py-3">18 Feb 2023</div>
+                        <div class="buy text-center py-3"><a href="event-details.html">Buy Ticket</a></div>
+                    </div>
+                    <i class="custom-block-icon bi-link fs-2 bg-warning text-light rounded-circle text-center px-2 pb-1"></i>
+                </div>
+                <div class="event-info mt-5">
+                  <p class="h3 pb-2"><a href="event-details.html">Single Tournament</a></p>
+                  <p class="fs-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit do eiusmod tempor</p>
+                  <hr>
+                  <div class="d-md-flex">
+                    <div class="title fw-bold ">
+                      <p>Location:</p>
+                      <p >Ticket:</p>
+                    </div>
+                    <div class="text-secondary ps-3">
+                      <p>National Center,NYC</p>
+                      <p>$150</p>
+                    </div>
+                  </div>
+                </div>
+            </div>
+
+            <div class="col-md-6 mt-5 mt-md-0">
+              <div class="event text-light">
+                  <img class="w-100 d-block" src="./images/newsletter.jpg" alt="">
+                  <div class="d-flex">
+                      <div class="date text-center w-50 py-3">18 Feb 2023</div>
+                      <div class="buy text-center py-3"><a href="event-details.html">Buy Ticket</a></div>
+                  </div>
+                  <i class="custom-block-icon bi-link fs-2 bg-warning text-light rounded-circle text-center px-2 pb-1"></i>
+              </div>
+              <div class="event-info mt-5">
+                <p class="h3 pb-2"> <a href="event-details.html">Group Tournaments</a></p>
+                <p class="fs-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit do eiusmod tempor</p>
+                <hr>
+                <div class="d-md-flex">
+                  <div class="title fw-bold ">
+                    <p>Location:</p>
+                    <p >Ticket:</p>
+                  </div>
+                  <div class="text-secondary ps-3">
+                    <p>National Center,NYC</p>
+                    <p>$250</p>
+                  </div>
+                </div>
+              </div>
+          </div>
+        </div>
+      </div>
+      <!-- End latest events  -->
+
+
+      <!-- start upcomming events  -->
+    <div class="upcoming-events my-5 py-5" id="events">
+      <div class="container">
+        <h1 class="mb-5">Upcoming Events</h1>
+        <div class="row mx-0 pt-5 px-3">
+          <div class="col-lg-2 col-md-4">
+            <div class="event-date text-center py-4 " >
+              <p class="fs-1">24</p>
+              <p class="text-light fw-bold fs-5 ">Feb 2048</p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-8 ps-lg-5 mt-5 mt-md-0">
+            <div class="image">
+              <img class="w-100" src="./images/professional-golf-player.jpg" alt="">
+              <i class="custom-block-icon bi-link fs-2 bg-warning text-light rounded-circle text-center px-2 pb-1"></i>
+            </div>
+          </div>
+          <div class="col-lg-6  ps-lg-5 mt-lg-0 mt-5">
+            <p class="title fs-2"><a href="event-details.html">Private activities</a></p>
+            <p class="text-secondary private">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <hr class="w-75 mx-auto">
+            <div class="d-md-flex justify-content-between">
+              <div class="title fw-bold fs-5">
+                <p>Location:</p>
+                <p >Ticket:</p>
+              </div>
+              <div class="text-secondary fs-5 ">
+                <p>National Center,NYC</p>
+                <p>$250</p>
+              </div>
+              <button class="btn btn-warning px-5 rounded-pill h-75 my-auto py-2 text-light">Buy Ticket</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="row mx-0 bg-light group pt-5 my-5 px-3">
+          <div class="col-lg-2 col-md-4">
+            <div class="event-date text-center py-4 " >
+              <p class="fs-1">28</p>
+              <p class="text-light fw-bold fs-5 ">Feb 2048</p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-8 ps-lg-5 mt-5 mt-md-0">
+            <div class="image">
+              <img class="w-100" src="./images/girl-taking-selfie-with-friends-golf-field.jpg" alt="">
+              <i class="custom-block-icon bi-link fs-2 bg-warning text-light rounded-circle text-center px-2 pb-1"></i>
+            </div>
+          </div>
+          <div class="col-lg-6  ps-lg-5 mt-lg-0 mt-5">
+            <p class="title fs-2"><a href="event-details.html">Group tournament activities</a></p>
+            <p class="text-secondary private">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <hr class="w-75 mx-auto">
+            <div class="d-md-flex justify-content-between">
+              <div class="title fw-bold fs-5">
+                <p>Location:</p>
+                <p >Ticket:</p>
+              </div>
+              <div class="text-secondary fs-5">
+                <p>National Center,NYC</p>
+                <p>$350</p>
+              </div>
+              <button class="btn btn-warning px-5 rounded-pill h-75 my-auto py-2 text-light">Buy Ticket</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End upcomming events  -->
+
+    <!-- Start footer  -->
+    <div class="footer container pt-5">
+      <div class="row mx-0">
+        <div class="col-md-6 ">
+            <div class="d-flex align-items-center justify-content-md-start justify-content-center">
+              <img  src="./images/logo.png" alt="">
+              <div class=" ms-0 ms-md-2 pt-2  logo-info">
+                <p class="fw-bold fs-4">Tiya</p>
+                <p class="fw-bold ">GOLF CLUB</p>
+              </div>
+            </div>
+        </div>
+        <div class="col-md-4 mt-5 mt-md-0 text-center text-md-start">
+          <p class="fs-4 join">join Us</p>
+          <p class="text-secondary">
+            <span class="fw-bold fs-5 me-3 d-block d-md-inline-block">Mon-Fri</span>
+            <span class="fs-5">6:00 AM - 6:00 PM</span>
+          </p>
+          <hr class="w-75 mx-auto mx-md-0">
+          <p class="text-secondary mb-5">
+            <span class="fw-bold fs-5 me-3 d-block d-md-inline-block">Sat-Sun</span>
+            <span class="fs-5">6:30 AM - 8:30 PM</span>
+          </p>
+          <p class="text-secondary fs-5">Copyright &copy; 2048 Tiya Golf Club</p>
+        </div>
+        <div class="col-md-2 mt-5 mt-md-0 text-center text-md-start">
+          <i class="social-icon-link bi-instagram"></i>
+          <i class="social-icon-link bi-twitter"></i>
+          <i class="social-icon-link bi-whatsapp"></i>
+          <p class="text-secondary fs-5 mt-4">Design:</p>
+          <h5 class="join">Naya Al-Nakola</h5>
+        </div>
+      </div>
+    </div>
+    <img src="./images/svg/wave (7).svg" alt="">
+    <!-- End footer  -->
+
+
+
+      <script src="./js/bootstrap.min.js"></script>
+      <script src="./js/script.js"></script>
+</body>
+</html>

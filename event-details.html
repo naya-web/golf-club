@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Details</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/all.min.css">
+    <link rel="stylesheet" href="./bootstrap-icons/bootstrap-icons.min.css">
+</head>
+<body>
+     <!-- Start header "> -->
+     <nav class="navbar navbar-expand-lg pt-2 position-fixed">
+        <div class="container container-fluid ">
+          <a class="navbar-brand text-light fs-3 w-25" href="#">
+            <div class="d-flex align-items-center ">
+              <img src="./images/logo.png" alt="">
+              <div class=" ms-0 ms-md-2 pt-2  logo-info">
+                <p class="fw-bold fs-4">Tiya</p>
+                <p class="fw-bold ">GOLF CLUB</p>
+              </div>
+            </div>
+          </a>
+          <button class="navbar-toggler ms-auto " type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="fas fa-bars text-light fs-6"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active text-light pe-4" aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-light pe-4" href="#about">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-light pe-4" href="#member">Membership</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-light pe-4" href="#events">Events</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-light pe-4" href="#contact">Contact Us</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle text-light pe-4" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Pages
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="event-listing.html">Event Listing</a></li>
+                  <li><a class="dropdown-item" href="event-details.html">Event Details</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+          <!-- Canvas button -->
+          <button class="btn btn-outline-warning rounded-pill log" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">Member Login</button>
+        </div>
+      </nav>
+
+  
+      <!-- Start offcanvas -->
+      <div class="offcanvas offcanvas-end d-flex align-items-center" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+          <div class="offcanvas-body  py-5 px-5 w-100">
+            <div class="d-flex mb-4">
+              <h5>Member Login</h5>
+              <button type="button text-secondary" class="btn-close ms-auto " data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <form action="">
+              <label class="mb-2 fs-6" for="">Membership No.</label>
+              <input type="text" class="d-block rounded-pill w-100 py-2 px-3 mb-4" placeholder="11002560">
+              <label class="mb-2 fs-6" for="">Password</label>
+              <input type="password" class="d-block rounded-pill w-100 py-2 px-3 mb-4" placeholder="password">
+              <input type="checkbox" class="d-inline-block">
+              <label class="fs-6" for="">Remember me</label>
+              <div class="d-flex justify-content-center">
+                <input type="submit" class="d-block  rounded-pill fs-5 py-2 px-4 text-light my-3" value="Login" >
+              </div>
+              <p class="text-center mt-2"><a class="" href="">Forgotten password?</a></p>
+              <p>
+                <span class="h5 text-light me-2">Any Question?</span>
+                <a href="">010-020-0340</a>
+              </p>
+            </form>
+          </div>
+      </div>  
+      <!-- End offcanvas -->
+      <!-- End header  -->
+  
+  
+  
+      <!-- Start home  -->
+      <div class="home ">    
+        <img class=" wave1" src="./images/svg/wave (8).svg" alt="">
+          <div class="container d-flex align-items-center h-100">
+            <div class="home-content my-5 ">
+              <h1 class="text-light mt-5 py-5 ">Event Detail.</h1>
+              <div>
+                <button class="btn btn-warning rounded-pill text-light fs-5 px-4">Learn more</button>
+              </div>
+            </div>
+          </div>
+        <img class="wave2" src="./images/svg/wave (9).svg" alt="">
+      </div>
+      <!-- End home  -->
+  
+      
+
+
+      <!-- Start group tournament  -->
+      <div class=" row mx-0 ">
+        <div class="col-md-6 group-tour">
+            <h3 >Tiya Club's Group Tournaments</h3>
+            <div class="img w-100 my-5">
+                <img class="w-100 " src="./images/professional-golf-player.jpg" alt="">
+            </div>  
+            <p class="fs-3 " mb-5>Golf Club based in Orlando</p>
+            <p class="text-secondary">Tiya Golf Club is Bootstrap v5.3.0 HTML CSS template for your golf related websites. Anyone can download, edit and use this layout for commercial purposes.</p>
+            <p class="text-secondary">Tiya is 100% free CSS template provided by TemplateMo website. Please tell your friends about our website. Thank you for visiting.</p>
+            <div class="event-details p-5 my-5">
+                <p class="fs-4">Event Detail</p>
+                <div class="d-block d-md-flex justify-content-between ">
+                    <div class="">
+                        <p class="text-secondary fw-bold fs-5 ">Date:</p>
+                        <p class="text-secondary fs-5">18 Mar 2048</p>
+                    </div>
+                    <div class="">
+                        <p class="text-secondary fw-bold fs-5">Location:</p>
+                        <p class="text-secondary fs-5">Tiya Golf Club</p>
+                    </div>
+                    <div class="">
+                        <p class="text-secondary fw-bold fs-5">Ticket:</p>
+                        <p class="text-secondary fs-5">$150</p>
+                    </div>
+                </div>
+            </div>
+            <div class="map p-5">
+                <div class="location text-light text-center fw-bold ">
+                  <div class="pt-4 px-4 pb-2">
+                    <h5 class="mb-3">London, United Kingdom</h5>
+                    <p class="fs-5">(020) 010-020-0340</p>
+                    <p class="fs-5">info@company.com</p>
+                  </div>
+                  <div class="direction py-3 w-100 fw-bold fs-5 ">
+                    Directions
+                  </div>
+                </div>
+              </div>
+        </div>
+        </div>
+      <!-- End group tournament  -->
+
+
+      <!-- Start footer  -->
+      <div class="footer-container">
+          <div class="footer container ">
+              <div class="row mx-0">
+                <div class="col-md-6 ">
+                    <div class="d-flex align-items-center justify-content-md-start justify-content-center">
+                      <img  src="./images/logo.png" alt="">
+                      <div class=" ms-0 ms-md-2 pt-2  logo-info">
+                        <p class="fw-bold fs-4">Tiya</p>
+                        <p class="fw-bold ">GOLF CLUB</p>
+                      </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mt-5 mt-md-0 text-center text-md-start">
+                  <p class="fs-4 join">join Us</p>
+                  <p class="text-secondary">
+                    <span class="fw-bold fs-5 me-3 d-block d-md-inline-block">Mon-Fri</span>
+                    <span class="fs-5">6:00 AM - 6:00 PM</span>
+                  </p>
+                  <hr class="w-75 mx-auto mx-md-0">
+                  <p class="text-secondary mb-5">
+                    <span class="fw-bold fs-5 me-3 d-block d-md-inline-block">Sat-Sun</span>
+                    <span class="fs-5">6:30 AM - 8:30 PM</span>
+                  </p>
+                  <p class="text-secondary fs-5">Copyright &copy; 2048 Tiya Golf Club</p>
+                </div>
+                <div class="col-md-2 mt-5 mt-md-0 text-center text-md-start">
+                  <i class="social-icon-link bi-instagram"></i>
+                  <i class="social-icon-link bi-twitter"></i>
+                  <i class="social-icon-link bi-whatsapp"></i>
+                  <p class="text-secondary fs-5 mt-4">Design:</p>
+                  <h5 class="join">Naya Al-Nakola</h5>
+                </div>
+              </div>
+            </div>
+            <img src="./images/svg/wave (7).svg" alt=""> 
+      </div>
+      <!-- End footer -->
+  
+  
+        <script src="./js/bootstrap.min.js"></script>
+        <script src="./js/script.js"></script>
+  
+</body>
+</html>
